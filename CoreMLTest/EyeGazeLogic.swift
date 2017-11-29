@@ -142,11 +142,6 @@ class EyeGazeLogic: EyeGazeLogicProtocol{
             guard let _pixelBuffer = pixelBuffer else { fatalError() }
             CVPixelBufferLockBaseAddress(_pixelBuffer, CVPixelBufferLockFlags.init(rawValue: 0))
             let ciContext = CIContext()
-//            ciContext.render(image
-//                , to: _pixelBuffer
-//                , bounds: CGRect.init(x: image.extent.origin.x
-//                , y: image.extent.origin.y, width: 224, height: 224)
-//                , colorSpace: CGColorSpaceCreateDeviceRGB())
             let cgImage = ciContext.createCGImage(image, from: image.extent)
             let data = CVPixelBufferGetBaseAddress(pixelBuffer!)
             let rgbColorSpace = CGColorSpaceCreateDeviceRGB()
