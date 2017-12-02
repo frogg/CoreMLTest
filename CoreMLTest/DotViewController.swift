@@ -131,22 +131,11 @@ extension DotViewController: CameraControllerDelegate{
         if(!isProcessing){
             DispatchQueue.global(qos: .userInteractive).async {
                 do {
-                    self.isProcessing = true
-                    guard let result = try self.gazeLogic?.detectEye(on: image) else {
-                        self.isProcessing = false
-                        return
-                    }
-                    if self.result[self.dotPosition] != nil{
-                        self.result[self.dotPosition]!.append(result)
-                    }
-                    else{
-                        self.result[self.dotPosition] = [result]
-                    }
+                    
                 }
                 catch{
                     print(error)
                 }
-                self.isProcessing = false
             }
         }
     }

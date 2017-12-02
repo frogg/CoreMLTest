@@ -11,7 +11,6 @@ import CoreML
 
 class TestModelPredictValue: XCTestCase {
     
-    let itracker: Itracker = Itracker()
     let eyeGazeLogic: EyeGazeLogic = EyeGazeLogic()
     
     override func setUp() {

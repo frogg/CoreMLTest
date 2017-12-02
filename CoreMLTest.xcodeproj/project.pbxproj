@@ -13,7 +13,12 @@
 		8D0A9ACC1F2DE18400E4F62C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A9ACB1F2DE18400E4F62C /* Assets.xcassets */; };
 		8D0A9ADA1F2DE18400E4F62C /* CoreMLTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A9AD91F2DE18400E4F62C /* CoreMLTestTests.swift */; };
 		8D11F4051F3E014E00A2574D /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D11F4031F3E013900A2574D /* CameraController.swift */; };
+		8D3104C11FD29A74009BA3D5 /* Logboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3104BF1FD29A74009BA3D5 /* Logboard.framework */; };
+		8D3104C21FD29A74009BA3D5 /* HaishinKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3104C01FD29A74009BA3D5 /* HaishinKit.framework */; };
 		8D33835E1F8237DF00AC8DE5 /* TestResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D33835D1F8237DF00AC8DE5 /* TestResultViewController.swift */; };
+		8D842F3C1FD1424100BF0787 /* ImagePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D842F3B1FD1424100BF0787 /* ImagePreprocessor.swift */; };
+		8D842F3D1FD1424100BF0787 /* ImagePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D842F3B1FD1424100BF0787 /* ImagePreprocessor.swift */; };
+		8D842F3F1FD1752900BF0787 /* TestImagePreprocessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D842F3E1FD1752900BF0787 /* TestImagePreprocessor.swift */; };
 		8D88F00B1FBD838D008D65B5 /* Itracker.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8D88F00A1FBD838D008D65B5 /* Itracker.mlmodel */; };
 		8D88F00E1FBD855A008D65B5 /* Itracker.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8D88F00A1FBD838D008D65B5 /* Itracker.mlmodel */; };
 		8D8C52641F4D518600080D77 /* EyeGazeLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8C52631F4D518600080D77 /* EyeGazeLogic.swift */; };
@@ -23,6 +28,8 @@
 		8DB070CE1F726D9B009C879F /* DotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0A9AC61F2DE18400E4F62C /* DotViewController.swift */; };
 		8DBFDED51F8FB66900775274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0A9ACB1F2DE18400E4F62C /* Assets.xcassets */; };
 		8DBFDED71F8FB67E00775274 /* TestModelPredictValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBFDED61F8FB67E00775274 /* TestModelPredictValue.swift */; };
+		8DC140C81FCE9D6900195424 /* VideoEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC140C71FCE9D6900195424 /* VideoEncoder.swift */; };
+		8DC140C91FCE9D6900195424 /* VideoEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC140C71FCE9D6900195424 /* VideoEncoder.swift */; };
 		8DC26B0F1F6A5A3A00F5FF53 /* ShowResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC26B0E1F6A5A3A00F5FF53 /* ShowResultViewController.swift */; };
 		8DC26B101F6A5A3A00F5FF53 /* ShowResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC26B0E1F6A5A3A00F5FF53 /* ShowResultViewController.swift */; };
 /* End PBXBuildFile section */
@@ -48,11 +55,16 @@
 		8D0A9AD91F2DE18400E4F62C /* CoreMLTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLTestTests.swift; sourceTree = "<group>"; };
 		8D0A9ADB1F2DE18400E4F62C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D11F4031F3E013900A2574D /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CameraController.swift; path = CoreMLTest/CameraController.swift; sourceTree = SOURCE_ROOT; };
+		8D3104BF1FD29A74009BA3D5 /* Logboard.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Logboard.framework; path = Carthage/Build/iOS/Logboard.framework; sourceTree = "<group>"; };
+		8D3104C01FD29A74009BA3D5 /* HaishinKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HaishinKit.framework; path = Carthage/Build/iOS/HaishinKit.framework; sourceTree = "<group>"; };
 		8D33835D1F8237DF00AC8DE5 /* TestResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestResultViewController.swift; sourceTree = "<group>"; };
+		8D842F3B1FD1424100BF0787 /* ImagePreprocessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePreprocessor.swift; sourceTree = "<group>"; };
+		8D842F3E1FD1752900BF0787 /* TestImagePreprocessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImagePreprocessor.swift; sourceTree = "<group>"; };
 		8D88F00A1FBD838D008D65B5 /* Itracker.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Itracker.mlmodel; sourceTree = "<group>"; };
 		8D8C52631F4D518600080D77 /* EyeGazeLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeGazeLogic.swift; sourceTree = "<group>"; };
 		8DB070CB1F726CDE009C879F /* TestPredictPointConvert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPredictPointConvert.swift; sourceTree = "<group>"; };
 		8DBFDED61F8FB67E00775274 /* TestModelPredictValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModelPredictValue.swift; sourceTree = "<group>"; };
+		8DC140C71FCE9D6900195424 /* VideoEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEncoder.swift; sourceTree = "<group>"; };
 		8DC26B0E1F6A5A3A00F5FF53 /* ShowResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D3104C11FD29A74009BA3D5 /* Logboard.framework in Frameworks */,
+				8D3104C21FD29A74009BA3D5 /* HaishinKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +94,7 @@
 				8D0A9AC31F2DE18400E4F62C /* CoreMLTest */,
 				8D0A9AD81F2DE18400E4F62C /* CoreMLTestTests */,
 				8D0A9AC21F2DE18400E4F62C /* Products */,
+				8D3104BE1FD29A74009BA3D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +119,8 @@
 				8D0A9AC81F2DE18400E4F62C /* Main.storyboard */,
 				8D0A9ACB1F2DE18400E4F62C /* Assets.xcassets */,
 				8D0A9AD01F2DE18400E4F62C /* Info.plist */,
+				8DC140C71FCE9D6900195424 /* VideoEncoder.swift */,
+				8D842F3B1FD1424100BF0787 /* ImagePreprocessor.swift */,
 			);
 			path = CoreMLTest;
 			sourceTree = "<group>";
@@ -116,8 +133,18 @@
 				8DB070CB1F726CDE009C879F /* TestPredictPointConvert.swift */,
 				8D33835D1F8237DF00AC8DE5 /* TestResultViewController.swift */,
 				8DBFDED61F8FB67E00775274 /* TestModelPredictValue.swift */,
+				8D842F3E1FD1752900BF0787 /* TestImagePreprocessor.swift */,
 			);
 			path = CoreMLTestTests;
+			sourceTree = "<group>";
+		};
+		8D3104BE1FD29A74009BA3D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D3104C01FD29A74009BA3D5 /* HaishinKit.framework */,
+				8D3104BF1FD29A74009BA3D5 /* Logboard.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,7 +252,9 @@
 				8D0A9AC51F2DE18400E4F62C /* AppDelegate.swift in Sources */,
 				8DC26B0F1F6A5A3A00F5FF53 /* ShowResultViewController.swift in Sources */,
 				8D88F00B1FBD838D008D65B5 /* Itracker.mlmodel in Sources */,
+				8D842F3C1FD1424100BF0787 /* ImagePreprocessor.swift in Sources */,
 				8D8C52641F4D518600080D77 /* EyeGazeLogic.swift in Sources */,
+				8DC140C81FCE9D6900195424 /* VideoEncoder.swift in Sources */,
 				8D11F4051F3E014E00A2574D /* CameraController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,14 +263,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D842F3F1FD1752900BF0787 /* TestImagePreprocessor.swift in Sources */,
 				8DB070CE1F726D9B009C879F /* DotViewController.swift in Sources */,
 				8DB070CD1F726D94009C879F /* CameraController.swift in Sources */,
 				8DB070CC1F726CDE009C879F /* TestPredictPointConvert.swift in Sources */,
 				8D88F00E1FBD855A008D65B5 /* Itracker.mlmodel in Sources */,
 				8DBFDED71F8FB67E00775274 /* TestModelPredictValue.swift in Sources */,
+				8D842F3D1FD1424100BF0787 /* ImagePreprocessor.swift in Sources */,
 				8D8C52651F4D518600080D77 /* EyeGazeLogic.swift in Sources */,
 				8D0A9ADA1F2DE18400E4F62C /* CoreMLTestTests.swift in Sources */,
 				8DC26B101F6A5A3A00F5FF53 /* ShowResultViewController.swift in Sources */,
+				8DC140C91FCE9D6900195424 /* VideoEncoder.swift in Sources */,
 				8D33835E1F8237DF00AC8DE5 /* TestResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +412,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EQHBA3445S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CoreMLTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -395,6 +431,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EQHBA3445S;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = CoreMLTest/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
